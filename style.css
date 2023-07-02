@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-navbar {
+  display: flex;
+  align-items: center;
+}
+.logo-navbar-paragrafos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-navbar-paragrafos p {
+  margin: 0;
+  text-transform: uppercase;
+}
+.imagem-logo {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.collapse.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-nav li {
+  margin-left: 10px;
+}
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.form-control {
+  width: 100px !important;
+  height: 25px; /* Ajuste a altura desejada */
+  font-size: 14px; /* Ajuste o tamanho da fonte desejado */
+}
+.form-control{
+  padding-left: 5px !important;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 25px; /* Ajuste a altura desejada */
+  padding: 0 10px; /* Ajuste o espaçamento interno desejado */
+  font-size: 14px; /* Ajuste o tamanho da fonte desejado */
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 10px;
+  gap: 15px;
+}
+.card-img-top {
+  border-radius: 50%;
+  width: 230px;
+  height: 200px;
+}
+footer img {
+  width: 100%;
+}
+.carousel-item h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 4px;
+  color: red;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px black;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.sr-only.black-icon {
+  color: black;
+}

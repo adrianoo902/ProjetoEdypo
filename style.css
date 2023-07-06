@@ -98,15 +98,6 @@ footer img {
 	width: 100%;
 }
 
-.carousel-item h5 {
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: 36px;
-	letter-spacing: 4px;
-	color: red;
-	font-weight: bold;
-	-webkit-text-stroke: 0.5px black;
-}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -135,4 +126,20 @@ footer img {
 
 .cancao-umbanda {
 	list-style-type: none;
+}
+.container {
+	display: flex;
+	align-items: center; /* Centraliza verticalmente os itens */
+	margin-top: 20px;
+	justify-content: space-between;
+	gap: 50px;
+  }
+.text-container h5{
+	text-decoration: none;
+	font-size: 2rem;
+	color: black;
+}
+.text-container h5:hover{
+	text-decoration: underline;
+	text-decoration-color: black; /* Altere a cor desejada */
 }

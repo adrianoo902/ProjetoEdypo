@@ -98,7 +98,6 @@ footer img {
 	width: 100%;
 }
 
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 	background-color: black;
@@ -136,7 +135,7 @@ footer img {
   }
 .text-container h5{
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: black;
 }
 .text-container h5:hover{

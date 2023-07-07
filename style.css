@@ -157,6 +157,7 @@ footer img {
 	.logo-navbar-paragrafos {
 		text-align: center;
 		margin-top: 10px;
+		margin-left: 10px;
 	  }
 	  .form-inline {
 		float: right;
@@ -197,4 +198,11 @@ footer img {
 		margin-top: 3.12rem;
 		max-width: 100%;
 	  }
-  }
+	  .carousel-item .cards {
+		flex-wrap: wrap;
+	  }
+	  .carousel-item .card {
+		flex-basis: calc(50% - 20px);
+	  }
+	}
+  
